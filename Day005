@@ -1,0 +1,26 @@
+#nazwy zmiennych/variable names
+
+age = "52"
+print ('Mam ' + age + ' lat.')
+
+'''
+# poprawne nazwy zmiennych/ correct variable names
+
+mojaZmienna = "Junior"
+moja_zmienna = "Junior"
+_kolejna_vzmienna = "Junior"
+MojaZmienna45 = "Junior"
+MOJAZMIENNA = "Junior"
+MyVariable = "Junior"
+
+# niepoprawne nazwy zmiennych/ incorrect warible names
+
+5845748 = "Junior"
+Moja-Zmienna = "Junior"
+Zmienna Zmienna2 = ""Junior"
+'''
+
+wiek = "15"
+print("Mam " + wiek + " lat.")
+#wiek = "34"
+print("Mam " + wiek + " lata.")
