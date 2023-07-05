@@ -1,0 +1,16 @@
+#  zmienna String / variable String
+
+print(12 + 12) # na konsoli zwraca wynik dodawania: 24 / on the console returns the result of the addition: 24
+print("12" + "12") # na konsoli zwraca dwie zmienne String: 1212 / on the console returns two String variables: 1212
+
+print("12" + 12) # zwróci TypeError, zmienne muszą być jednorodne, np. String, int / will return TypeError, variables must be homogeneous, e.g. String, int
+
+# powtórka / repeat:
+
+# To jest komentarz                # komentarz / comment
+print("Zero To Junior Forever :)") # zwraca: Zero To Junior Forever :) / return: Zero To Junior Forever :)
+
+# To też jest komentarz            # komentarz / comment
+#TODO                              # komentarz / comment
+print("To się na pewno nie wyświetli") # no to komentujemy # zwraca tylko: To się na pewno nie wyświetli /return only: To się na pewno nie wyświetli
+# dalsza część komentarza          # komentarz / comment
