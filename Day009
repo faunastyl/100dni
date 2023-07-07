@@ -1,0 +1,6 @@
+# ciąg dalszy, zmienne String / Continued, String variables
+
+dlugiCiagZnakow = "Nauka Python jest super"
+print(len(dlugiCiagZnakow)) # zwraca 23 - liczba znaków, liczenie od 0 / returns 23 - number of marks, counting from 0
+
+print(dlugiCiagZnakow[6:12]) # zwraca "Python", znaki od 6 do 11 / return "Python" - marks from 0 to 11
