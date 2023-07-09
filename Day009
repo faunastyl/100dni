@@ -1,6 +1,18 @@
-# ciąg dalszy, zmienne String / Continued, String variables
+## ciąg dalszy, zmienne String / Continued, String variables
 
 dlugiCiagZnakow = "Nauka Python jest super"
 print(len(dlugiCiagZnakow)) # zwraca 23 - liczba znaków, liczenie od 0 / returns 23 - number of marks, counting from 0
 
 print(dlugiCiagZnakow[6:12]) # zwraca "Python", znaki od 6 do 11 / return "Python" - marks from 0 to 11
+
+## Slicing Strings
+
+dlugiCiagZnakow = "Nauka Python jest super"
+
+print (len(dlugiCiagZnakow)) # zwraca "Nauka Python jest super" / return "Nauka Python jest super"
+print (dlugiCiagZnakow[6:23]) # zwraca 23 / return 23
+print (dlugiCiagZnakow[:6]) # zwraca "Python jest super" (cięcie od początku) / return "Python jest super" (Slice From the Start)
+print (dlugiCiagZnakow[6:]) # zwraca "Nauka" (cięcie do konca) / return "Nauka" (Slice To the End)
+print (dlugiCiagZnakow[-1]) # zwraca "r" (ostatni znak) / return "r" (last mark)
+print (dlugiCiagZnakow[+3]) # zwraca "k" (czwarty znak) / return "k" (fourth mark)
+print (dlugiCiagZnakow[-10:-1]) # zwraca "jest supe" (bez ostatniego znaku) / return "jest supe" (without the last mark)
