@@ -1,0 +1,13 @@
+#1
+dlugiCiagZnakow = "Nauka Python jest super"
+print(dlugiCiagZnakow[6:len(dlugiCiagZnakow)])
+
+#2
+dlugiCiagZnakow = "Nauka Python jest super"
+dlugosc = len(dlugiCiagZnakow)
+
+print(dlugiCiagZnakow[6:dlugosc])
+
+#3
+dlugiCiagZnakow = "Nauka Python jest super"
+print(dlugiCiagZnakow[-len(dlugiCiagZnakow):-11])
