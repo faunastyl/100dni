@@ -16,3 +16,34 @@ print (dlugiCiagZnakow[6:]) # zwraca "Nauka" (cięcie do konca) / return "Nauka"
 print (dlugiCiagZnakow[-1]) # zwraca "r" (ostatni znak) / return "r" (last mark)
 print (dlugiCiagZnakow[+3]) # zwraca "k" (czwarty znak) / return "k" (fourth mark)
 print (dlugiCiagZnakow[-10:-1]) # zwraca "jest supe" (bez ostatniego znaku) / return "jest supe" (without the last mark)
+
+print (dlugiCiagZnakow[-10:-1:23]) >>>  j
+print (dlugiCiagZnakow[-8:-1]) >>> st supe
+print (dlugiCiagZnakow[-8:-1:-5]) >>>  pusta linia
+print (dlugiCiagZnakow[-8:-1:2]) >>> s ue
+print (dlugiCiagZnakow[-8:-1:3]) >>> sse
+print (dlugiCiagZnakow[-8:-1:4]) >>> su
+print (dlugiCiagZnakow[-8:-1:5]) >>> sp
+print (dlugiCiagZnakow[-8:-1:6]) >>> se
+print (dlugiCiagZnakow[-8:-1:7]) >>> s
+print (dlugiCiagZnakow[-8:-1:8]) >>> s
+print (dlugiCiagZnakow[-8:-1:9]) >>> s
+ 
+dlugiCiagZnakow = "Nauka Python jest super"
+print (dlugiCiagZnakow[-10:24]) # udało się zrobić to co zamierzone było: "jest super"
+
+ogolnie to co tam kombinujesz pod koniec to ma niewielki sens bo nikt tak slicingu nie uzywa. Raczej bym się skupiał na praktycznych zastosowaniach. Niemniej, dziala to tak ze pierwsze 2 warosci to granice slicingu, a 3ci to opcjonalny step. 
+
+1. Polecam przeczytac to co pisalem o slicingu nieco wyzej.
+2. tu masz bardziej sensowen przykady na uzycie stepu (np reversowanie lub wybieranie znaku co ktorys. 
+> `s = "Nauka Python jest super"
+> >>> s[::]
+> 'Nauka Python jest super'
+> >>> s[::-1]
+> 'repus tsej nohtyP akuaN'
+> >>> s[::1]
+> 'Nauka Python jest super'
+> >>> s[::2]
+> 'NuaPto etspr'
+> >>> `
+> (PS u ciebie na koncu jest 1 literka bo podajesz taki dziwny zakras i potem step co 8 znakow. i tak wychodzi.)
