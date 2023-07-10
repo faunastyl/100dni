@@ -1,0 +1,7 @@
+nazwaBloga = "Zero To Junior"
+
+print(nazwaBloga.upper()) # zamienia na duże litery / converts to uppercase >>> ZERO TO JUNIOR
+print(nazwaBloga.lower()) #zamienia na małe litery / converts to lower-case letters >>> zero to junior
+print(nazwaBloga.startswith("Junior")) >>> False # FAUSZ - zmienna nie zaczyna się od Junior / the vairable doesn't start with junior
+print(nazwaBloga.endswith("Junior")) >>> True # PRAWDA - zmienna zaczyna się od Junior / the variable starts with Junior
+print(nazwaBloga.count("o")) >>> 3 # liczy znak / count the mark
