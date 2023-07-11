@@ -1,0 +1,16 @@
+nazwaBloga = "Zero To Junior"
+liczba = "12345678"
+
+print(nazwaBloga.swapcase()) >>> zERO tO jUNIOR # zamiana liter małych na duże i dużych na małe / converting lower case letters into upper case letters and upper case letters into lower case letters
+print(nazwaBloga.replace(" ", "_")) >>> Zero_To_Junior # wymiana znaku na inny / exchange of a sign for another
+print(nazwaBloga.isdigit()) >>> False # jest cyfrą / is digit
+print(nazwaBloga.isalpha()) >>> False # jest jednym wyrażeniem literami / is one expression in letters
+print(liczba.isdigit()) >>> True # jest cyfrą / is digit
+print(liczba.isalpha()) >>> False # jest jednym wyrażeniem literami / is one expression in letters
+
+nazwaBloga = "abbnjjj"
+liczba = "a12345678"
+
+print(nazwaBloga.isalpha()) >>> True
+print(liczba.isdigit()) >>> False
+print(liczba.isalpha()) >>> False
