@@ -1,20 +1,39 @@
-print("Zero\nTo\n Junior")
+#przydatne formy zapisu, formatownie znaków / useful forms of writing, character formatting
 
-Zero
-To
-Junior
+print("Zero\n\tTo\n Junior") #new line and tab, attention to the spacebar
+>>>Zero
+>>>To
+>>> Junior
 
 print()
+>>>                #pusta linia / empty line
 
 print("Zero\nTo\n Junior\t i tabulacja")
+>>>Zero
+>>>To
+>>> Junior  i tabulacja
 
-print(""Zero" to "Junior"")
+print(""Zero" to "Junior"") #to nie zostanie wykonne / "SyntaxError: invalid syntax"
+
 print("\"Zero\" to \"Junior\"")
+>>>"Zero" to "Junior"
 
 print("Zero","to","Junior",10000)
+>>>Zero to Junior 10000
+
 print('''
 Hej
 co
 tam
 w Zero to Junior?
 ''')
+>>>Hej
+>>>co
+>>>tam
+>>>w Zero to Junior?
+
+'''
+komentarz
+w kliku
+liniach
+'''
