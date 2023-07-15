@@ -1,0 +1,18 @@
+# zmienne: int (całkowite) i float (zmiennoprzecinkowe) / variables: int (integer) and float (floating point)
+
+x = 4
+y = 10.5
+z = x + y # z = 14.5
+a = -7
+b = 3.14
+c = a * b # c = -22.18
+
+sto = 100
+cztery = 4
+jeden = 1
+print(sto+cztery+jeden)
+>>>105
+
+f = 100.0
+print(type(f)) #sprawdza typ zmiennej / checking the variable type
+>>><class 'float'>
