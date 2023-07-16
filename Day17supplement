@@ -1,0 +1,14 @@
+ona = "ona"
+print("ona" == 8) >>>False
+print("ona" > str(1.5)) >>>True
+print("o" < str(2)) >>>False
+print("ona" < str(10)) >>>False
+print("ona" < "o") >>>False
+print("ona" != "O") >>>True
+print("ona" > "o") >>>True
+print(len(ona) == 5) >>>False
+print("ona" > 1.5) 
+>>>Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    print("ona" > 1.5)
+TypeError: '>' not supported between instances of 'str' and 'float'
