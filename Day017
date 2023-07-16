@@ -1,0 +1,30 @@
+'''
+Boolean - typ: prawda albo fałsz, 0 albo 1 / type: true or false, 0 or 1
+Symbole / Symbols
+== (czy wartości są równe) / whether the values are equal
+!= (czy wartości są różne) / whether the values are different
+'''
+
+a, b, c = "Orange", "Banana", "Cherry"
+print(a) >>>Orange
+print(b) >>>Banana
+print(c) >>>Cherry
+
+d = e = f = "Orange"
+print(d) >>>Orange
+print(e) >>>Orange
+print(f) >>>Orange
+
+print(11 > 1) # czy 11 jest większe niż jeden
+>>>True
+print(11 == 1) # czy 11 jest równe jeden
+>>>False
+print(11 < 1) # czy 11 jest mniejsze od 1
+>>>False
+print(11 != 1) # czy 11 jest różne niż jeden
+>>>True
+
+print("ona" == 8) >>>False
+print(11 == 1.5) >>>False
+print(-11 < 1) >>>True
+print(11 != 11) >>>False
