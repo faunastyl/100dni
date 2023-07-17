@@ -3,8 +3,10 @@
 owoce = ["jabłko", "banan", "wiśnia"]
 print(owoce)
 
+# indeksowanie elementów / indexing of list items
 print(owoce[0]) #wypisze "jabłko"
 print(owoce[1]) #wypisze "banan"
 
+# zmiana elementów listy / changing list items
 owoce[0] = "gruszka"
 print(owoce) #wypisze ["gruszka", "banan", "wiśnia"]
