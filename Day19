@@ -1,1 +1,24 @@
-# formatowanie i bloki kodu
+# formatowanie i bloki kodu / formatting and code blocks
+
+# prawiłowo sformatowany kod / correctly formatted code
+a = 2
+
+if a != 1:
+    print(">> a jest różne od jeden")
+elif a == 1:
+    print(">> a jest równe jeden")
+else:
+    print(">> żaden warunek nie spełniony")
+
+print(">> wyszlismy z if'a ten komunikat zawsze się wyświetli")
+
+# kod nie będzie wykonany / the code will not be executed
+a = 2
+
+if a != 1:
+print(">> a jest różne od jeden")
+elif a == 1:
+print(">> a jest równe jeden")
+else:
+print(">> żaden warunek nie spełniony")
+print(">> wyszlismy z if'a ten komunikat zawsze się wyświetli")
