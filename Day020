@@ -1,0 +1,10 @@
+# tworzenie listy / list creation
+
+owoce = ["jabłko", "banan", "wiśnia"]
+print(owoce)
+
+print(owoce[0]) #wypisze "jabłko"
+print(owoce[1]) #wypisze "banan"
+
+owoce[0] = "gruszka"
+print(owoce) #wypisze ["gruszka", "banan", "wiśnia"]
