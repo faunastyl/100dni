@@ -1,0 +1,23 @@
+# Boolean, logical functions
+
+X = 2
+Y = 3
+
+print(X == Y) # sprawdzenie czy X równa się Y      >>> False
+print(X != Y) # sprawdzenie czy X jest różne od Y  >>> True
+print(X > Y)    >>> False
+print(X < Y)    >>> True
+print(X >= Y)   >>> False
+print(X <= Y)   >>> True
+
+# and # i
+# or # lub
+# not # nie
+
+x = 5
+print(x < 5 and x < 10)     >>> False
+
+x = 5
+print(x > 3 and x < 10)      >>> True
+print(not(x > 3 and x < 10)) >>> False
+print(not x > 3 and x < 10)  >>> False
