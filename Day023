@@ -1,0 +1,37 @@
+pustaLista1 = []
+pustaLista2 = list()
+
+pelnaLista1 = [1, 4, 6, 10]
+pelnalista2 = list([1, 4, 6, 10])
+
+# Składnia
+
+#range(start, stop, step)
+
+# start (opcjonalnie) - mówi od której wartości zaczynamy.
+# stop (wymagane) - do której wartości należy doliczyć
+# step (opcjonalne) - jeśli ustalimy ten parametr to będziemy przesuwać się o więcej niż jedna wartość. Wartość domyślna to 1.
+
+print(range(10))
+
+# możemy napisać tak:
+# print(list(range(10)))
+# ale dla Twojej wygody, zrobimy to czytelniej
+
+liczby = range(10)
+lista_liczb = list(liczby)
+print(lista_liczb)
+
+x = list(range(3, 10))
+y = list(range(0, 10, 3))    # step co +3
+z = list(range(0, -10, -1))  # step co -1
+print(x)
+print(y)
+print(z)
+
+>>>
+range(0, 10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[3, 4, 5, 6, 7, 8, 9]
+[0, 3, 6, 9]
+[0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
