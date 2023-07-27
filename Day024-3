@@ -1,0 +1,20 @@
+i = 12
+i = i + 10
+
+#teraz i = 24
+print(i)
+
+i += 12
+print(i)
+
+i -= -12
+print(i)
+
+i -= 10
+print(i)
+
+>>>
+22
+34
+46
+36
