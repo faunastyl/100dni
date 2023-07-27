@@ -1,0 +1,15 @@
+wynik = 0
+
+for cyfra in range(0, 5):
+    print(cyfra)
+    wynik = wynik + cyfra
+
+print('Wynik: ' + str(wynik))
+
+>>>
+0
+1
+2
+3
+4
+Wynik: 10
