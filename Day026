@@ -14,3 +14,18 @@ apple
 -- Kolejna iteracja
 banana
 Ile razy wyświetli się ten komunikat?
+
+for fruit in fruits:
+    print("-- Kolejna iteracja")
+    print(fruit)
+
+>>>
+-- Kolejna iteracja
+banana
+Ile razy wyświetli się ten komunikat?
+-- Kolejna iteracja
+apple
+-- Kolejna iteracja
+banana
+-- Kolejna iteracja
+cherry
