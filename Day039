@@ -1,0 +1,28 @@
+#fix me
+
+fruits = ("apple", "banana", "cherry")
+
+if "apple" in fruits:
+print("tak, 'apple' jest w tuple o nazwie fruits") #brak wcięcia / no indentation
+    
+    
+fruits1 = ("apple", "banana", "cherry")
+fruits2 = ("orange",)
+
+print("Pierwsza wersja: ", fruits1)
+
+fruits1 += fruits2 #powstaje nowa tupla przypisana do zmiennej fruits1 / a new tuple assigned to the fruits1 variable is created
+
+print("Druga wersja: ", fruits1)
+
+fruits = ("apple", "banana", "cherry", "apple")
+
+print(fruits.count("apple")) #podje ile razy wystąpił element w tupli / tells you how many times an element occurred in the tuple
+print(fruits.index("banana")) #podaje numer indeksu elementu w tupli / gives the index number of the element in the tuple
+
+>>>
+tak, 'apple' jest w tuple o nazwie fruits
+Pierwsza wersja:  ('apple', 'banana', 'cherry')
+Druga wersja:  ('apple', 'banana', 'cherry', 'orange')
+2
+1
